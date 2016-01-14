@@ -16,3 +16,22 @@ $(document).ready(function() {
   event.preventDefault();
   });
 });
+
+$(document).ready(function() {
+  $("form#bob").submit(function(event) {
+    var choice = $("select#choice").val();
+
+    var result1 = ["fur", "mink", "wrap", "chinchilla"];
+    var result2 = ["fur", "mink", "wrap", "chinchilla"];
+      if (choice === "1") {
+      result1 = result1[3]
+      result2 = result2[2]
+    } else if (choice === "2") {
+      result = result[0]
+      }
+
+    $("#furoption").text(result1 + " " + result2);
+
+    event.preventDefault();
+  });
+});
