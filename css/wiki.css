@@ -3,5 +3,9 @@
 }
 
 .displayresult {
-  text-align: center; 
+  text-align: center;
+}
+
+.spacing {
+  margin-top: 30px;
 }

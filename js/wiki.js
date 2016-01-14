@@ -27,7 +27,8 @@ $(document).ready(function() {
       result1 = result1[3]
       result2 = result2[2]
     } else if (choice === "2") {
-      result = result[0]
+      result1 = result1[1]
+      result2 = result2[0]
       }
 
     $("#furoption").text(result1 + " " + result2);
